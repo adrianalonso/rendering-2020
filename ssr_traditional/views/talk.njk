@@ -1,0 +1,36 @@
+{% extends "base.njk" %}
+
+{% block content %}
+<div class="ui container">
+  <div class="ui card fluid ">
+        <div class="image">
+          <img src="{{talk.image}}">
+        </div>
+        <div class="content">
+          <a href="/talk/{{talk.id}}" class="header">{{talk.name}}</a>
+          <div class="meta">
+            <span class="date">
+              {{talk.date | date('D/M/Y')}}
+            </span>
+          </div>
+          <div class="description">
+            {{ talk.description }}
+          </div>
+        </div>
+        <div class="extra content">
+          {%for speaker in talk.speakers%}
+            <a href="/speaker/{{speaker.id}}">
+              <div class="speaker">
+                <img class="ui avatar image" src="{{speaker.image}}">
+                <span>{{speaker.name}}</span>
+              </div>
+            </a>
+            {%endfor%}
+          </div>
+    </div>
+  <div class="ui center">
+      <a href="/" class="ui orange center button">Volver</a>
+  </div>
+</div>
+
+{% endblock content %}

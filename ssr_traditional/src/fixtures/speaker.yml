@@ -1,0 +1,60 @@
+entity: Speaker
+items:
+  speaker1:
+    name: 'Alex Fernandez'
+    twitter: 'pinchito'
+    image: 'https://pbs.twimg.com/profile_images/1139121548135149568/HFFT8etR_400x400.jpg'
+    bio: 'Desarrollador viejuno de Javascript. 20+ años de experiencia'
+    company: 'Freelancer - pinchito.es'
+  speaker2:
+    name: 'Pablo Ortuño Salmerón'
+    twitter: 'oxigenao'
+    image: 'https://pbs.twimg.com/profile_images/1270430463212097539/j1ZSFyv2_400x400.jpg'
+    bio: 'Entrepenaur, Software Developer, CTO and Cofounder'
+    company: 'BuscoExtra'
+  speaker3:
+    name: 'Konstantin Knyavez'
+    image: 'https://avatars3.githubusercontent.com/u/29006524?s=460&u=a03c50907f2c8264072b69016a548d2f0c8ee5ba&v=4'
+    bio: 'Software Engineer'
+    company: 'Zinklar'
+  speaker4:
+    name: 'Ariane Jurado de Bilbao'
+    twitter: 'ari_reinventada'
+    image: 'https://pbs.twimg.com/profile_images/1124951388155518976/9cERWUH9_400x400.jpg'
+    bio: 'Enfermera, psicopedagoga, y ahora programadora. Inmigrante y mamá soltera de Sebas'
+    company: 'Kairos DS'
+  speaker5:
+    name: 'Jorge Cano'
+    twitter: 'jorgeucano'
+    image: 'https://pbs.twimg.com/profile_images/1250937592880775168/G1E_BT85_400x400.jpg'
+    bio: 'Angular GDE'
+    company: 'Herodevs'
+  speaker6:
+    name: 'Jorge Baumann'
+    twitter: 'baumannzone'
+    image: 'https://pbs.twimg.com/profile_images/1219892060167254016/qDPuDHht_400x400.jpg'
+    bio: 'Desarrollador fullstack. Organizo de OSWeekends'
+    company: 'RambitoJS'
+  speaker7:
+    name: 'Raul Jimenez'
+    image: 'https://pbs.twimg.com/profile_images/1143923975216599041/YzFBnEQv_400x400.jpg'
+    bio: 'Frontend Architect'
+    company: 'Bytedefault'
+    twitter: 'elecash'
+  speaker8:
+    name: 'Felipe Polo'
+    image: 'https://pbs.twimg.com/profile_images/1257321625017389063/RkjCb6_E_400x400.jpg'
+    bio: 'COO and co-founder. I build high performance teams. People, bussines and tech'
+    company: 'GuideSmiths'
+    twitter: 'feliun'
+  speaker9:
+    name: 'Adrián Alonso'
+    image: 'https://pbs.twimg.com/profile_images/874257341679636481/HdJGvtKe_400x400.jpg'
+    bio: 'Full Stack Developer'
+    company: 'Cloud District'
+  speaker10:
+    name: 'Kevin Martinez'
+    image: 'https://pbs.twimg.com/profile_images/1213070257717481472/NNXNpdYi_400x400.jpg'
+    bio: 'Javascript Developer'
+    company: 'GuideSmiths'
+    twitter: 'kjmesc'

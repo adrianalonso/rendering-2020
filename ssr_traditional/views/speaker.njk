@@ -1,0 +1,55 @@
+{% extends "base.njk" %}
+
+{% block content %}
+
+  <div class="ui container speaker">
+    <div class="ui items">
+      <div class="item">
+          <img class="ui medium circular image" src="{{speaker.image}}">
+        <div class="content">
+          <h1 class="header">{{speaker.name}}</h1>
+          <div class="meta">
+            <span>{{speaker.company}}</span>
+          </div>
+          <div class="description">
+            <p>{{speaker.bio}}</p>
+          </div>
+          <a href="https://twitter.com/{{speaker.twitter}}" target="_blank">@{{speaker.twitter}}</a>
+        </div>
+    </div>
+  </div>
+
+    <h1 class="ui dividing header">Charlas</h1>
+    <div class="ui container">
+      <div class="ui grid card_talks">
+        {%for talk in speaker.talks%}
+            <div class="ui card ">
+              <div class="image">
+                <img src="{{talk.image}}">
+              </div>
+              <div class="content">
+                <a href="/talk/{{talk.id}}" class="header">{{talk.name}}</a>
+                <div class="meta">
+                  <span class="date">
+                    {{talk.date | date('D/M/Y')}}
+                  </span>
+                </div>
+                <div class="description">
+                  {{ talk.description }}
+                </div>
+              </div>
+
+            </div>
+         
+          {%endfor%}
+          
+        </div>
+      </div>
+
+      <div class="ui center">
+          <a href="/" class="ui orange center button">Volver</a>
+      </div>
+
+    </div>
+
+  {% endblock content %}

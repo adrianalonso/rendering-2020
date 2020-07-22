@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  db:
+    image: mysql:5.7
+    restart: always
+    environment:
+      MYSQL_DATABASE: 'demo'
+      MYSQL_USER: 'admin'
+      MYSQL_PASSWORD: 'admin'
+      MYSQL_ROOT_PASSWORD: 'root'
+    ports:
+      - '3326:3306'
+    expose:
+      - '3326'
+    volumes:
+      - cd_mysql_data:/var/lib/mysql
+
+volumes:
+  cd_mysql_data:

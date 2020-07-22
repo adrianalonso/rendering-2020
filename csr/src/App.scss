@@ -1,0 +1,83 @@
+.ui.card {
+  margin-bottom: 15px !important;
+  width: 100%;
+
+  &.vertical {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      max-width: 300px;
+    }
+
+    .content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    @media screen and (max-width: 720px) {
+      flex-direction: column;
+
+      img {
+        width: 100%;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+.ui.container {
+  &.talk {
+    margin-top: 60px;
+  }
+
+  &.speaker {
+    margin-top: 60px;
+  }
+
+  &.talks {
+    margin-top: 60px;
+  }
+}
+
+.ui.center {
+  display: flex;
+  justify-content: center;
+}
+
+.ui.items > .item > .image > img {
+  border-radius: 100%;
+}
+
+.ui.items > .item > .image + .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+footer {
+  margin-top: 45px;
+  background: #f3f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  .credits {
+    padding: 20px;
+    margin: 10px auto;
+  }
+  img {
+    margin-bottom: 20px;
+    max-width: 80px;
+  }
+
+  a {
+    color: #ffc200;
+    font-weight: bold;
+  }
+
+  a:hover {
+    color: black;
+  }
+}

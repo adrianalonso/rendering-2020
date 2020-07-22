@@ -1,0 +1,67 @@
+.content {
+  padding-top: 60px;
+}
+
+h1 {
+  font-family: 'Expletus Sans', cursive;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+}
+
+footer {
+  margin-top: 45px;
+  background: #f3f5f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+footer p.credits {
+  padding: 20px;
+  margin: 10px auto;
+}
+footer img {
+  margin-bottom: 20px;
+  max-width: 80px;
+}
+
+footer a {
+  color: #ffc200;
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: black;
+}
+
+.ui.center {
+  display: flex;
+  justify-content: center;
+}
+
+.speaker .item .image {
+  max-width: 150px;
+}
+
+.speaker .item .content {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card_talks {
+  margin-top: 15px !important;
+  margin-bottom: 60px !important;
+}
+
+.card_talks .card {
+  display: flex !important;
+  flex-direction: row;
+  width: 100%;
+}
+
+.card_talks .card .image {
+  max-width: 300px;
+}

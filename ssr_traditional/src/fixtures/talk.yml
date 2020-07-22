@@ -1,0 +1,63 @@
+entity: Talk
+items:
+  talk1:
+    name: '¿Puede el código JavaScript ser bello? Spoiler: ¡sí!    '
+    description: '¡Pasa tu código por esta beauty shop para dejarlo elegante! En esta charla veremos unas cuantas reglas simples que nos pueden hacer a todos mejores desarrolladores, reutilizables en múltiples lenguajes. Con algunos ejemplos reales de código #JavaScript. Sí, incluso JavaScript puede ser bello, y te lo vamos a mostrar.'
+    date: '2020-04-15'
+    image: 'https://secure.meetupstatic.com/photos/event/e/0/5/highres_490083589.jpeg'
+    speakers: ['@speaker1']
+  talk2:
+    name: 'WebComponents y Micro-Frontends con StencilJS'
+    description: 'StencilJS es una potente herramienta para crear WebComponents y micro-frontends, hablaremos de la revolución de los WebComponents y veremos como podemos generar herramientas y recursos Framework Agnostic que cambiarán nuestra manera de ver el mundo del desarrollo web.'
+    date: '2020-04-23'
+    image: 'https://secure.meetupstatic.com/photos/event/1/5/e/f/highres_490145615.jpeg'
+    speakers: ['@speaker2']
+  talk3:
+    name: 'DDD con Node.js es posible'
+    description: 'Introducción al DDD (Domain-Driven Design) como guía de desarrollo de aplicaciones escalables, fácilmente modularizables, mantenibles y testables.'
+    date: '2020-04-30'
+    image: 'https://secure.meetupstatic.com/photos/event/b/2/8/d/highres_490245709.jpeg'
+    speakers: ['@speaker3']
+  talk4:
+    name: 'Testing: del 2+2 al fetch'
+    description: 'Quieres aprender a hacer testing, buscas en google y todos los artículos son de una suma simple. Genial, vas a tu aplicación y resulta que no tienes ningún método que haga una suma. Ni una resta. ¡Ni nada similar! entonces buscas un paso más allá y te encuentras con el tutorial del que hace un test que parece de la NASA y no entiendes nada. No consigues ningún intermedio ni el tutorial sobre el proceso de hacer tests de algún método parecido que tenga tu aplicación.'
+    date: '2020-05-06'
+    image: 'https://secure.meetupstatic.com/photos/event/8/1/6/7/highres_490293127.jpeg'
+    speakers: ['@speaker4']
+  talk5:
+    name: 'Mono-Repos y Bazel FTBuild'
+    description: 'PayPal, Dropbox, Google, Huawei, Stripe, Pinterest, entre otros gigantes de la tecnología, tienen una cosa en común (además de millones de dólares), usan la misma arquitectura, la magia
+    de "Mono-Repos", un repositorio único para TODOS sus proyectos '
+    date: '2020-05-15'
+    image: 'https://secure.meetupstatic.com/photos/event/8/c/4/4/highres_490415908.jpeg'
+    speakers: ['@speaker5']
+  talk6:
+    name: 'No sabía que podía hacer esto con el navegador'
+    description: 'Atrás quedaron los tiempos en los que los navegadores web servían para renderizar texto y poco más. ¡Son tiempos modernos!, incluso para los navegadores, que están llenos de "features" interesantes para los developers. En esta charla, exploraremos algunas de las funcionalidades (APIs) más curiosas del navegador.'
+    date: '2020-05-21'
+    image: 'https://secure.meetupstatic.com/photos/event/3/1/b/4/highres_490452724.jpeg'
+    speakers: ['@speaker6']
+  talk7:
+    name: '¿Merece la pena usar librerías?'
+    description: '¿Merece la pena usar librerías? ¿Cuándo usarlas? Si creas tu propia librería tendrás el control absoluto de ella, ¿pero conoces las desventajas de ello?'
+    date: '2020-06-11'
+    image: 'https://secure.meetupstatic.com/photos/event/3/e/e/8/highres_490756104.jpeg'
+    speakers: ['@speaker7']
+  talk8:
+    name: 'Learning mixing with Plants vs Zombies'
+    description: 'Pues vamos a usar ejemplos de este juego para aprender a utilizar el potente recurso mixing de JS.'
+    date: '2020-07-16'
+    image: 'https://secure.meetupstatic.com/photos/event/8/a/e/2/highres_491315554.jpeg'
+    speakers: ['@speaker8']
+  talk9:
+    name: 'Renderizando la web en 2020'
+    description: 'Las diferencias entre cada uno de estos enfoques de renderizando ayudan a tomar la decisión acertada para tu arquitectura, sobre todo vista desde el punto de vista del performance y del coste de la infraestructura. Descubriremos cómo elegir la mejor estrategia desde un modelo tradicional como SSR hasta un modelo más innovador como CSR.'
+    date: '2020-07-23'
+    image: 'https://media-exp1.licdn.com/dms/image/C4D22AQEtGjWT5xFKbQ/feedshare-shrink_2048_1536/0?e=1597881600&v=beta&t=2sdK3nxCeCn_9AoIWeY11KQhRs5kbX_hKgG0sfHhkvw'
+    speakers: ['@speaker9']
+  talk10:
+    name: 'Frontend & Microservicios'
+    description: 'Frontend & Microservicios'
+    date: '2020-07-30'
+    image: 'https://media-exp1.licdn.com/dms/image/C4D22AQEkOF9oHaOOdw/feedshare-shrink_2048_1536/0?e=1597881600&v=beta&t=Mo2K1PAY2T7k3HGLhBtoAClqlEVRv5kRHd5aUzPvxCA'
+    speakers: ['@speaker10']
